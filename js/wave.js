@@ -5,7 +5,7 @@ function Wave(row, char_size){
 	this.symbols_limit = Math.floor(Math.random()*40 + 7);
 	this.x = row;
 	this.y = 0;
-	this.shift = char_size;
+	this.shift = char_size + 5;
 	this.head = 4;
 
 	this.outOfBounds = function(height){
