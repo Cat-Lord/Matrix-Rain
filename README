@@ -4,3 +4,6 @@ Language: Javascript
 
 This is a simple program simulating Matrix Rain (also called Matrix Rain Code) in Javascript. There was no optimization done.
 I changed the intial behaviour of the rain, so there might be redundant code.
+
+The rain starts just by opening the page.html.
+If you click, you can stop the execution at any time.
