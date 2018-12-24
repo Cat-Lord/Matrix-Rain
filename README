@@ -1,0 +1,6 @@
+Author: Matej Petras
+Date: 24.december 2018 (yes, I have no life)
+Language: Javascript
+
+This is a simple program simulating Matrix Rain (also called Matrix Rain Code) in Javascript. There was no optimization done.
+I changed the intial behaviour of the rain, so there might be redundant code.
