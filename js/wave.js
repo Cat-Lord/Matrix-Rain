@@ -1,4 +1,5 @@
 let colors = ["#ffffff", "#e6ffe6", "#b3ffb3", "#00ff00"];
+let code = 1990;
 
 function Wave(row, char_size){
 	this.symbols = new Array();
@@ -25,7 +26,7 @@ function Wave(row, char_size){
 			this.symbols[pos] = copy_symbol(old_symbol); 
 		}
 
-		this.symbols.push(new Symbol(20102 + Math.floor(Math.random()*40), this.y));
+		this.symbols.push(new Symbol(code + Math.floor(Math.random()*40), this.y));
 
 
 		for(let i = this.symbols.length-1, j = 0; i > 0 && j < colors.length; j++, i--){
@@ -61,7 +62,7 @@ function Wave(row, char_size){
 }
 
 function copy_symbol(old){
-	let character      =  20102 + Math.floor(Math.random()*40);
+	let character      =  code + Math.floor(Math.random()*40);
 	let new_symbol     = new Symbol(character, old.y);
 	new_symbol.opacity = old.opacity;
 	new_symbol.color   = old.color;
